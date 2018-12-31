@@ -161,6 +161,10 @@ dataset = [[0,0,[0,1]],
             [0,1,[1,0]],
             [1,0,[1,0]],
             [1,1,[0,1]]]
+#dataset = [[10,[1,0]],
+#            [20,[1,0]],
+#            [-30,[0,1]],
+#            [-10,[0,1]]]
 outputMapping = {0:'True',1:'False'}
 numInputs = len(dataset[0]) - 1
 numOutputs = len(dataset[0][-1])
